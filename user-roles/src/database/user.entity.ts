@@ -1,13 +1,5 @@
-import { Role } from "./role.enum";
+import { Role } from "../role.enum";
 
-export class User {
-  userId: number;
-  username: string;
-  password: string;
-  roles: Role[];
-}
-
-// example of TypeORM Entity
 @Entity()
 export class UserEntity {
   @PrimaryGeneratedColumn() userId: number;
