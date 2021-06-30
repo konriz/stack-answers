@@ -1,5 +1,6 @@
  import { Injectable } from '@nestjs/common';
  import { User } from './user.entity';
+ import { Role } from "./role.enum";
 
 
 @Injectable()
